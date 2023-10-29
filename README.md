@@ -14,7 +14,7 @@ The `Find-AccessDeniedFolders` function is a PowerShell script designed to recur
 
 ## Requirements
 
-- Windows PowerShell 5.1 or higher
+- Windows PowerShell 5.1
 - Administrative privileges for accurate results
 
 ## Parameters
@@ -34,7 +34,8 @@ To start the search from the `W:\` directory:
 Find-AccessDeniedFolders -path "W:\\"
 ```
 #### Exclusions
+```
 Find-AccessDeniedFolders -path "W:\\" -exclude @("W:\\System Volume Information", "W:\\$RECYCLE.BIN")
-
+```
 
 
