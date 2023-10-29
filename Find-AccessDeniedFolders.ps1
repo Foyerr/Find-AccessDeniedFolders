@@ -54,8 +54,8 @@ function Find-AccessDeniedFolders {
 }
 
 # Define the root directory to start the search
-$rootDirectory = "W:\"
-$excludedDirectories = @("W:\System Volume Information", "W:\$RECYCLE.BIN")  # Add directories to be excluded
+#$rootDirectory = "W:\"
+#$excludedDirectories = @("W:\System Volume Information", "W:\$RECYCLE.BIN")  # Add directories to be excluded
 
 # Start the search from the root directory
-Find-AccessDeniedFolders -path $rootDirectory -exclude $excludedDirectories
+#Find-AccessDeniedFolders -path $rootDirectory -exclude $excludedDirectories
